@@ -1,0 +1,9 @@
+README
+
+compile via this command: python DPFrontEnd.py [input file]
+
+outputs a file DPSolution.txt
+
+FrontEnd has parsing of file and enumeration of constraints into propositional calculus
+DavisPutnamAlgorithm has the implementation of the algorithm
+BackEnd has the translation of atomic symbols 1,2,3... from solution back into meaningful atoms Value() and Assign() and prints them to doc, or prints none both to doc and to console
